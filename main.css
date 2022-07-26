@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+body{
+    background-color:hsl(30, 38%, 92%);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.contaner .card{
+    width:620px;
+    display: flex;
+    /*notwork*/
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    /**/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    margin-bottom: -50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.contaner .card .img-side img{
+    width:320px;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.contaner .card .info-side{
+    width: 300px;
+    background-color:whitesmoke;
+    padding: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.contaner .card .info-side .top{
+    color:hsl(228, 12%, 48%);
+    letter-spacing: 4px;
+    font-variant: small-caps;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom:20px;
+    font-size: 18px;
+}
+
+.contaner .card .info-side .prodact-name{
+    color:hsl(212, 21%, 14%);
+    font-size: 2em;
+    font-family: 'Fraunces', serif;
+    line-height: 0.99;
+    margin-bottom:30px;
+}
+
+.contaner .card .info-side .pragraf{
+    font-family:'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    margin-bottom:30px
+}
+
+.contaner .card .info-side .sall .new-sall{
+    color:hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-size:2em;
+    margin-right:20px
+}
+
+.contaner .card .info-side .sall{
+    display:flex;
+    align-items: center;
+    margin-bottom:30px
+}
+
+.contaner .card .info-side .sall .old-sall{
+    color: rgba(51, 51, 51, 0.548);
+    text-decoration: line-through;
+    font-family:'Montserrat', sans-serif; 
+    font-size: 14px;
+
+}
+
+.contaner .card .info-side .shopping{
+    color:white;
+    background-color: hsl(158, 36%, 37%);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px 30px;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    transition:0.5s ;
+    -webkit-transition:0.5s ;
+    -moz-transition:0.5s ;
+    -ms-transition:0.5s ;
+    -o-transition:0.5s ;
+    cursor: pointer;
+}
+.contaner .card .info-side .shopping a{
+    text-decoration: none;
+    color:white;
+}
+
+.contaner .card .info-side .shopping img{
+    margin-right: 15px;
+}
+.contaner .card .info-side .shopping:hover{
+    background-color:  rgb(5, 45, 5);
+}
+
+/* DONE >> */
